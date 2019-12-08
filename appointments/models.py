@@ -13,7 +13,8 @@ class Appointments(models.Model):
 
     doctor = models. ForeignKey("Doctor", on_delete=models.CASCADE)
     patient = models.ForeignKey("Patient", on_delete=models.CASCADE)
-    date_time = models.DateTimeField()
+    appt_date = models.DateField()
+    appt_time = models.TimeField()
     kind = models.CharField(max_length=3, choices=APPOINTMENT_CHOICES, default=DEFAULT_APT_CHC)
 
     @property
