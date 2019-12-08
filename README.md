@@ -1,7 +1,7 @@
 # notable_test
 
 
-##This project was built using python 3.7.4 and Django 2.2.3. The database used is PostgreSQL
+## This project was built using python 3.7.4 and Django 2.2.3. The database used is PostgreSQL
 
 1. Please create a virtualenv and install the requirements in reqs.txt
 2. Please check the DATABASES in settings.py for setting up the Postgres connection accordingly
